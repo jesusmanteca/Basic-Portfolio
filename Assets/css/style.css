@@ -1,0 +1,35 @@
+html {
+    background: orange;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: whitesmoke;
+    top: 0;
+    position: relative;
+    height: 200vh;
+}
+header {
+    background: lightskyblue;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+div {
+    float: right;
+    margin: 0px 10px 0px 0px;
+    flex-direction: row-reverse;
+}
+
+section {
+    padding: 10px;
+    background: lightyellow;
+}
+img {
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+footer {
+    background: mistyrose;
+   
+}
