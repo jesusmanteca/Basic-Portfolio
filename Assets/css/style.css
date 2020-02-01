@@ -1,35 +1,74 @@
 html {
-    background: orange;
+    background: rgb(218, 217, 216);
 }
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: whitesmoke;
     top: 0;
     position: relative;
-    height: 200vh;
+}
+.NavTitle {
+    float: left;
+    padding: 10px;
+    background-color: rgb(16, 146, 146);
+    font-size: xx-large;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 header {
-    background: lightskyblue;
+    background: white;
     position: sticky;
     top: 0;
-    padding: 10px;
-}
-div {
-    float: right;
-    margin: 0px 10px 0px 0px;
-    flex-direction: row-reverse;
+    overflow: auto;
 }
 
+ul {
+    float: right;
+    margin: 10px;
+    justify-content: center;
+    color: lightgray;
+}
+li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+.NavItemSeparator {
+    border-right: 1px solid lightgrey;
+    border-right-width: 2px;
+}
 section {
-    padding: 10px;
-    background: lightyellow;
+    padding: 20px;
+    background:white;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
 }
 img {
     width: 200px;
     float: left;
-    margin: 10px;
+    margin-right: 10px;
 }
 footer {
-    background: mistyrose;
-   
+    background: gray;
+    margin: 20px 0 0 0;
+    border-top: 6px solid rgb(16, 146, 146);
+    color: whitesmoke
+}
+.CopyrightText {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-small;
+}
+span {
+    color:  rgb(16, 146, 146);
+    justify-content: center;
+}
+.biodescription {
+    color: gray;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
