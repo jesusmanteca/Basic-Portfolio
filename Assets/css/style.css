@@ -45,6 +45,7 @@ section {
     padding: 20px;
     background:white;
     max-width: 960px;
+    height: 300px;
     margin: 20px auto;
     border: 1px solid lightgray;
 }
@@ -64,11 +65,42 @@ footer {
     padding-bottom: 10px;
     font-size: xx-small;
 }
-span {
+h1 {
     color:  rgb(16, 146, 146);
     justify-content: center;
 }
 .biodescription {
     color: gray;
     font-family: 'Ubuntu Condensed', sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.PortfolioSection {
+    max-height: fit-content;
+    float: left;
+}
+
+.Textbox {
+    position: absolute;
+}
+#Photo1 {
+
+
+}
+#Photo2 {
+    
+}
+#Photo3 {
+    
+}
+#Photo4 {
+    
 }
