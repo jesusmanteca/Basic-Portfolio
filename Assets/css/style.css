@@ -45,14 +45,20 @@ section {
     padding: 20px;
     background:white;
     max-width: 960px;
-    height: 300px;
     margin: 20px auto;
     border: 1px solid lightgray;
+}
+.aboutmewrap {
+    height: fit-content;
+}
+.portfoliosectionwrap {
+    height: 300px;
 }
 img {
     width: 200px;
     float: left;
     margin-right: 10px;
+    justify-content: space-evenly;
 }
 footer {
     background: gray;
@@ -71,7 +77,7 @@ h1 {
 }
 .biodescription {
     color: gray;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input[type=text], select, textarea {
     width: 100%;
