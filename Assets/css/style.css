@@ -25,7 +25,6 @@ header {
     top: 0;
     overflow: auto;
 }
-
 ul {
     float: right;
     margin: 10px;
@@ -56,9 +55,18 @@ section {
 }
 img {
     width: 200px;
-    float: left;
     margin-right: 10px;
-    justify-content: space-evenly;
+    float: left;
+}
+.photosec {
+    text-align: center;
+    height: 300px;
+    border: 1px solid lightgray;
+    justify-content: center;
+}
+.Box1 {
+    float: left;
+    background-color: mediumaquamarine;
 }
 footer {
     background: gray;
@@ -96,17 +104,4 @@ input[type=text], select, textarea {
 
 .Textbox {
     position: absolute;
-}
-#Photo1 {
-
-
-}
-#Photo2 {
-    
-}
-#Photo3 {
-    
-}
-#Photo4 {
-    
 }
